@@ -1,0 +1,18 @@
+
+import { CapacitorConfig } from '@capacitor/cli';
+
+const config: CapacitorConfig = {
+  appId: 'com.zhichu.date.app',
+  appName: '智楚date',
+  webDir: 'dist',
+  server: {
+    androidScheme: 'https',
+    // 确保开发环境下如果是本地调试不强制走 HTTPS，生产环境走本地文件
+    cleartext: true 
+  },
+  plugins: {
+    // 可以在这里添加后续需要的原生插件配置
+  }
+};
+
+export default config;
