@@ -26,9 +26,10 @@
       "label": "智楚主界面"
     }
   ],
-  "start_url": ".",
-  "scope": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
   "background_color": "#F7F9FC",
   "theme_color": "#2E5B88",
   "orientation": "portrait",
