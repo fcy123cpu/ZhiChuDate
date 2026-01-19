@@ -35,5 +35,5 @@ export const generateSmartSchedule = async (prompt: string, date: string): Promi
     }
   });
 
-  return JSON.parse(response.text) as AIResponse;
+  const text = response.text; if (!text) { throw new Error('Response text is undefined'); } return JSON.parse(text) as AIResponse;
 };
