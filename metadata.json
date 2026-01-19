@@ -1,0 +1,7 @@
+{
+  "name": "Smart Schedule AI",
+  "description": "An AI-powered calendar and task management application with a clean, professional aesthetic and intelligent scheduling features.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
